@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: lightsalmon;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: green;
+}
+
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    color: grey;
+    font-weight: normal;
+}
