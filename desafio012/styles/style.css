@@ -57,8 +57,9 @@ section{
 }
 
 section.imagem > p{
+    display: inline-block;
+    padding: 5px;
     background-color: #0d0d0d5b;
-    width: 400px;
 }
 
 section.normal{
