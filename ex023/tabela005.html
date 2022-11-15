@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        caption{
+            font-weight: bolder;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        th{
+            border: 1.5px solid black;
+        }
+
+        td{
+            border: 1.5px solid black;
+            text-align: center;
+            padding: 6px;
+        }
+        col.cnome{
+            background-color: beige;
+        }
+        col.cgrupo{
+            background-color: burlywood;
+        }
+        col.cprofissao{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+    
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Gardênia</td>
+            <td>Feminino</td>
+            <td>37</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Maicon</td>
+            <td>Masculino</td>
+            <td>32</td>
+            <td>Mecânico</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>Masculino</td>
+            <td>46</td>
+            <td>Capitão de Navio</td>
+        </tr>
+        <tr>
+            <td>Michele</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Advogada</td>
+        </tr>
+    </table>
+</body>
+</html>
